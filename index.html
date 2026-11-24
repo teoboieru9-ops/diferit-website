@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="diferit. — nopți diferite în Brașov. Evenimente, muzică și experiențe.">
+  <title>diferit. — Nopți diferite</title>
+  <style>
+    :root{--bg:#08070d;--panel:#12101b;--muted:#aaa4b8;--pink:#ff3cac;--purple:#784bff;--line:#282236}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:#fff;font-family:Inter,Arial,sans-serif}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+    header{position:sticky;top:0;z-index:5;background:#08070de8;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    nav{height:76px;display:flex;align-items:center;justify-content:space-between}.logo{font-size:30px;font-weight:900;letter-spacing:-2px}.logo span{color:var(--pink)}
+    .links{display:flex;gap:28px;color:#d8d2e2;font-size:14px}.links a:hover{color:var(--pink)}
+    .btn{display:inline-flex;padding:13px 20px;border-radius:999px;background:linear-gradient(100deg,var(--purple),var(--pink));font-weight:800;box-shadow:0 0 28px #b13cff40}
+    .hero{min-height:680px;display:grid;align-items:center;position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+    .hero:before{content:"";position:absolute;width:600px;height:600px;right:-100px;top:20px;background:radial-gradient(circle,#8a36ff55,transparent 65%);filter:blur(25px)}
+    .eyebrow{color:#ff8bd0;text-transform:uppercase;letter-spacing:4px;font-size:12px;font-weight:800}
+    h1{font-size:clamp(64px,12vw,142px);line-height:.85;letter-spacing:-.09em;margin:24px 0}
+    h1 em{font-style:normal;color:transparent;-webkit-text-stroke:1.5px var(--pink)}
+    .lead{max-width:520px;color:var(--muted);font-size:18px;line-height:1.7}
+    .hero-actions{display:flex;gap:14px;align-items:center;margin-top:32px;flex-wrap:wrap}.ghost{border:1px solid #514663;border-radius:999px;padding:13px 20px;font-weight:700}
+    section{padding:90px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:30px}
+    h2{font-size:clamp(36px,6vw,58px);letter-spacing:-.06em;margin:8px 0}.muted{color:var(--muted)}
+    .event{display:grid;grid-template-columns:1.1fr 1fr;background:linear-gradient(135deg,#171322,#0e0c14);border:1px solid var(--line);border-radius:24px;overflow:hidden}
+    .event-art{min-height:320px;display:grid;place-items:center;background:radial-gradient(circle at 50% 45%,#c22dff55,transparent 45%),linear-gradient(135deg,#24103a,#100d1c)}
+    .event-art strong{font-size:clamp(42px,7vw,82px);line-height:.85;text-align:center;letter-spacing:-.08em;text-shadow:0 0 30px #ff3cac80}
+    .event-info{padding:clamp(25px,5vw,54px);display:flex;flex-direction:column;justify-content:center}
+    .tag{display:inline-block;border:1px solid #7443a0;color:#e5aaff;border-radius:99px;padding:7px 12px;font-size:11px;text-transform:uppercase;letter-spacing:2px;width:max-content}
+    .event-info h3{font-size:38px;letter-spacing:-2px;margin:18px 0 8px}.price{font-size:28px;font-weight:900;margin:22px 0}
+    .tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.tile{padding:26px;border:1px solid var(--line);border-radius:20px;background:var(--panel)}.tile b{font-size:20px}.tile p{color:var(--muted);line-height:1.6}
+    .contact{background:linear-gradient(120deg,#1b1030,#100d18);border:1px solid #38234d;border-radius:24px;padding:clamp(28px,6vw,60px)}
+    footer{border-top:1px solid var(--line);padding:30px 0;color:var(--muted);font-size:13px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    @media(max-width:720px){.links{display:none}.hero{min-height:590px}.event{grid-template-columns:1fr}.event-art{min-height:240px}.tiles{grid-template-columns:1fr}.section-head{display:block}}
+  </style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+  <a class="logo" href="#">diferit<span>.</span></a>
+  <div class="links"><a href="#evenimente">Evenimente</a><a href="#despre">Despre noi</a><a href="#contact">Contact</a></div>
+  <a class="btn" href="#evenimente">Descoperă evenimentele</a>
+</nav></div></header>
+<main>
+  <div class="hero"><div class="wrap">
+    <div class="eyebrow">Brașov · Nights out, differently</div>
+    <h1>NU DOAR<br><em>O NOAPTE.</em></h1>
+    <p class="lead">Un loc pentru oameni, muzică și momente care ies din tipare. Intră în lumea diferit. și descoperă următoarea experiență.</p>
+    <div class="hero-actions"><a class="btn" href="#evenimente">Vezi evenimentele</a><a class="ghost" href="#despre">Descoperă diferit.</a></div>
+  </div></div>
+  <section id="evenimente"><div class="wrap">
+    <div class="section-head"><div><div class="eyebrow">Următoarea experiență</div><h2>În curând, la diferit.</h2></div><span class="muted">Evenimente & experiențe</span></div>
+    <article class="event">
+      <div class="event-art"><strong>DIFERIT.<br>SATURDAY</strong></div>
+      <div class="event-info"><span class="tag">Eveniment demonstrativ</span><h3>DIFERIT. SATURDAY</h3><p class="muted">O noapte diferită, cu muzică și energie.</p><p class="price">50 RON</p><p class="muted">Data exemplului: 5 decembrie 2026 · Capacitate demonstrativă: 200 persoane.</p><a class="btn" href="#contact">Solicită informații</a></div>
+    </article>
+    <p class="muted" style="font-size:13px;margin-top:14px">Notă: evenimentul și prețul de mai sus sunt exemple demonstrative, nu reprezintă o ofertă sau o vânzare reală.</p>
+  </div></section>
+  <section id="despre"><div class="wrap">
+    <div class="section-head"><div><div class="eyebrow">Despre diferit.</div><h2>Fă loc pentru altceva.</h2></div></div>
+    <div class="tiles">
+      <div class="tile"><b>Sunet care te ține în mișcare</b><p>Muzică, artiști și seri construite în jurul energiei momentului.</p></div>
+      <div class="tile"><b>Oameni. Atmosferă. Comunitate.</b><p>Un spațiu în care fiecare seară poate deveni o poveste.</p></div>
+      <div class="tile"><b>Experiențe diferite</b><p>Urmărește evenimentele și află ce pregătim în continuare.</p></div>
+    </div>
+  </div></section>
+  <section id="contact"><div class="wrap"><div class="contact">
+    <div class="eyebrow">Ținem legătura</div><h2>Ne vedem curând.</h2><p class="lead">Pentru întrebări și noutăți, contactează echipa diferit.</p>
+    <div class="hero-actions"><a class="btn" href="https://www.instagram.com/diferit.brasov/" target="_blank" rel="noreferrer">Instagram</a><a class="ghost" href="mailto:mirceavaloi01@gmail.com">Trimite un e-mail</a><a class="ghost" href="tel:0787212155">0787 212 155</a></div>
+  </div></div></section>
+</main>
+<footer><div class="wrap foot"><span>© 2026 diferit. · Brașov</span><span>Site în dezvoltare · Plățile online nu sunt active</span></div></footer>
+</body></html>
